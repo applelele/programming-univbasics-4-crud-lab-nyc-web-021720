@@ -22,8 +22,9 @@ end
 remove_element_from_end_of_array(["cat", "dog", "rabbit", "elefant"])
 
 def remove_element_from_start_of_array(array)
-  
+  array.shift
 end
+remove_element_from_start_of_array(["Where", "you" "are", "going"])
 
 def retrieve_element_from_index(array, index_number)
   
